@@ -4,8 +4,6 @@
 .temp
 node_modules
 dist
-.env
-.env.*
 .npmrc
 .eslintcache
 
@@ -38,3 +36,4 @@ demos/*.tgz
 # demo directories
 demos/src/Dev/**
 !demos/src/Dev/.gitkeep
+config.bat
