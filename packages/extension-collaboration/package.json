@@ -45,6 +45,6 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && rollup -c"
+    "build": "node init && npm run clean && rollup -c"
   }
 }
